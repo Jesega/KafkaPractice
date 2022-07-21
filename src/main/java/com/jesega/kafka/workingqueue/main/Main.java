@@ -26,8 +26,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		setUp();
-		prod.publish("multiples", String.valueOf(random.nextInt(1000)));
-		//prod.publish("multiples", String.valueOf(36));
+		//prod.publish("square", String.valueOf(random.nextInt(1000)));
+		prod.publish("multiples", String.valueOf(36));
 		//prod.publish("multiples", String.valueOf(636));
 		for(Consumidor c : consumidores)
 		{
